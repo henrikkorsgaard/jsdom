@@ -4,6 +4,7 @@ const path = require("path");
 const runWebPlatformTest = require("./run-web-platform-test")(exports, path.resolve(__dirname, "tests"));
 
 [
+  /*
   "dom/nodes/CharacterData-appendData.html",
   "dom/nodes/CharacterData-deleteData.html",
   "dom/nodes/CharacterData-insertData.html",
@@ -55,6 +56,14 @@ const runWebPlatformTest = require("./run-web-platform-test")(exports, path.reso
   "dom/nodes/getElementsByClassName-31.htm",
   "dom/nodes/Node-baseURI.html",
   "dom/nodes/Node-cloneNode.html",
+  */
+  //"dom/nodes/MutationObserver-attributes.html"
+  "dom/nodes/MutationObserver-characterData.html"
+  //"dom/nodes/MutationObserver-childList.html",
+  //"dom/nodes/MutationObserver-document.html",
+  //"dom/nodes/MutationObserver-inner-outer.html",
+  //"dom/nodes/MutationObserver-takeRecords.html"     //HenrikKorsgaard testing MutationObserver-attributes
+/*
   "dom/traversal/NodeFilter-constants.html",
   "dom/traversal/NodeIterator.html",
   "html/dom/dynamic-markup-insertion/document-writeln/document.writeln-02.html",
@@ -263,6 +272,6 @@ const runWebPlatformTest = require("./run-web-platform-test")(exports, path.reso
   "XMLHttpRequest/timeout-sync.htm",
   "XMLHttpRequest/xmlhttprequest-basic.htm",
   "XMLHttpRequest/xmlhttprequest-eventtarget.htm",
-  "XMLHttpRequest/xmlhttprequest-unsent.htm"
+  "XMLHttpRequest/xmlhttprequest-unsent.htm"*/
 ]
 .forEach(runWebPlatformTest);

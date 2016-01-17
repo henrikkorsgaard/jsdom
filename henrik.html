@@ -1,0 +1,23 @@
+<html><body>
+<div id="henrik" test="nothing"></div>
+
+<script>
+'use strict';
+
+let el = document.getElementById('henrik');
+let obs = new MutationObserver(function(mutations){
+    console.log(mutations);
+});
+
+let opt = {
+  childList:true,
+  attributes:true
+}
+
+obs.observe(el, opt);
+el.setAttribute('test', 'mutation');
+
+
+</script>
+
+</body></html>
