@@ -58,8 +58,8 @@ const runWebPlatformTest = require("./run-web-platform-test")(exports, path.reso
   "dom/nodes/Node-cloneNode.html",
   */
   //"dom/nodes/MutationObserver-attributes.html"
-  "dom/nodes/MutationObserver-characterData.html"
-  //"dom/nodes/MutationObserver-childList.html",
+  //"dom/nodes/MutationObserver-characterData.html"
+  "dom/nodes/MutationObserver-childList.html"
   //"dom/nodes/MutationObserver-document.html",
   //"dom/nodes/MutationObserver-inner-outer.html",
   //"dom/nodes/MutationObserver-takeRecords.html"     //HenrikKorsgaard testing MutationObserver-attributes
